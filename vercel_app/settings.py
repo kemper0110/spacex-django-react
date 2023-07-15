@@ -62,6 +62,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
+    'https://spacex-frontend-gilt.vercel.app'
 ]
 
 ROOT_URLCONF = 'vercel_app.urls'
